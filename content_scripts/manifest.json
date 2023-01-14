@@ -1,7 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Shopi-vi",
+    "name": "ShopiVi",
     "version": "1.0",
+    "permissions": ["activeTab", "tss"],
     "content_scripts": [
         {
             "matches": [
