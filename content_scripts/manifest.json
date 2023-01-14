@@ -2,6 +2,21 @@
     "manifest_version": 3,
     "name": "Shopi-vi",
     "version": "1.0",
+    "permissions": ["ttsEngine", "activeTab", "tss"],
+    "tts_engine": {
+        "voices": [
+            {
+              "voice_name": "Alice",
+              "lang": "en-US",
+              "event_types": ["start", "marker", "end"]
+            },
+            {
+              "voice_name": "Pat",
+              "lang": "en-US",
+              "event_types": ["end"]
+            }
+          ]
+    },
     "content_scripts": [
         {
             "matches": [
